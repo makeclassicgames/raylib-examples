@@ -9,7 +9,8 @@ Puedes encontrar ejemplos sobre:
 * Hola Mundo (Raylib).
 * Formas (Shapes).
 * Input (teclado y gamepad).
-* Texto
+* Mouse (ratón).
+* Rotation (uso de rotación).
 
 Recuerda que puedes ver estos ejemplos y los vídeos explicativos en nuestro canal de Twitch y Youtube:
 
