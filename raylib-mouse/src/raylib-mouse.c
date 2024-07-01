@@ -12,7 +12,7 @@ int main(){
     Vector2 mousePosition;
     
     //Init Window (width, Height, title)
-    InitWindow(screenWidth,screenHeight,"Hello Raylib");
+    InitWindow(screenWidth,screenHeight,"Raylib Mouse");
     //Set target FPS
     SetTargetFPS(60);
 

@@ -14,7 +14,7 @@ int main(){
     float rotation=0.2f;
     
     //Init Window (width, Height, title)
-    InitWindow(screenWidth,screenHeight,"Hello Raylib");
+    InitWindow(screenWidth,screenHeight,"Raylib Rotate");
     //Set target FPS
     SetTargetFPS(60);
 
@@ -32,6 +32,8 @@ int main(){
         BeginDrawing();
         //Clear Background
         ClearBackground(RAYWHITE);
+        //Draw Text
+        DrawText("Press Right or Left to rotate",120,20,30,BLACK);
         //Draw rectangle using center as origin and rotation
         DrawRectanglePro(rect,origin,rotation,MAROON);
         //Finish Drawing Mode
