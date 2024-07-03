@@ -12,6 +12,8 @@ Puedes encontrar ejemplos sobre:
 * Mouse (ratón).
 * Rotation (uso de rotación).
 * Texture (carga de textura en GPU).
+* Sprite (Animación de Sprite).
+* Parallax (Desplazamiento o Scrolling de varias capas).
 
 Recuerda que puedes ver estos ejemplos y los vídeos explicativos en nuestro canal de Twitch y Youtube:
 
