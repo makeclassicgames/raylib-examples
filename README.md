@@ -11,7 +11,7 @@ Puedes encontrar ejemplos sobre:
 * Input (teclado y gamepad).
 * Mouse (ratón).
 * Rotation (uso de rotación).
-* Texture (carga de textura en GPU)
+* Texture (carga de textura en GPU).
 
 Recuerda que puedes ver estos ejemplos y los vídeos explicativos en nuestro canal de Twitch y Youtube:
 
