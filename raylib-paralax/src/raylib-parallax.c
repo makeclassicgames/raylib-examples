@@ -58,7 +58,6 @@ int main(){
         //DrawTrees
         DrawTextureEx(trees,(Vector2){scrollTrees,20},0.0f,2.0f,WHITE);
         DrawTextureEx(trees,(Vector2){trees.width*2.0f+scrollTrees,20},0.0f,2.0f,WHITE);
-
         //Finish Drawing Mode
         EndDrawing();
     }

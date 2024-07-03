@@ -13,7 +13,7 @@ Puedes encontrar ejemplos sobre:
 * Rotation (uso de rotación).
 * Texture (carga de textura en GPU).
 * Sprite (Animación de Sprite).
-* Parallax (Desplazamiento o Scrolling de varias capas).
+* Parallax (Desplazamiento o Scrolling de varias capas) ([Enlace a recursos](https://opengameart.org/content/mountain-at-dusk-background)).
 
 Recuerda que puedes ver estos ejemplos y los vídeos explicativos en nuestro canal de Twitch y Youtube:
 
