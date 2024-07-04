@@ -16,7 +16,7 @@ int main()
     float scrollTrees = 0.0f;
 
     // Init Window (width, Height, title)
-    InitWindow(screenWidth, screenHeight, "RayLib Paralax");
+    InitWindow(screenWidth, screenHeight, "RayLib Parallax");
 
     Texture2D bg = LoadTexture("../resources/bg.png");
     Texture2D far = LoadTexture("../resources/far.png");
