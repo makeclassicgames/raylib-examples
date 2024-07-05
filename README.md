@@ -15,6 +15,7 @@ Puedes encontrar ejemplos sobre:
 * Sprite (Animación de Sprite).
 * Parallax (Desplazamiento o Scrolling de varias capas) ([Enlace a recursos](https://opengameart.org/content/mountain-at-dusk-background)).
 * Camaras 3D.
+* Snow (texturas y repetición).
 
 Recuerda que puedes ver estos ejemplos y los vídeos explicativos en nuestro canal de Twitch y Youtube:
 

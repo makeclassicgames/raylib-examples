@@ -11,9 +11,13 @@ int main(){
     InitWindow(screenWidth,screenHeight,"Hello Raylib");
     //Set target FPS
     SetTargetFPS(60);
-
+    //Init()
     //While windows is open
     while(!WindowShouldClose()){
+
+        //update()
+
+        //Draw()
         //init drawing mode
         BeginDrawing();
         //Clear Background
