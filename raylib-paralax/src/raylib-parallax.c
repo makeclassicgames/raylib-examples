@@ -10,6 +10,7 @@ int main()
     const int screenWidth = 800;
     const int screenHeight = 480;
 
+    //Scroll Positions
     float scrollMountains = 0.0f;
     float scrollForeMountains = 0.0f;
     float scrollMountainsTree = 0.0f;
@@ -17,7 +18,8 @@ int main()
 
     // Init Window (width, Height, title)
     InitWindow(screenWidth, screenHeight, "RayLib Parallax");
-
+    
+    //Load All textures to VRAM (GPU)
     Texture2D bg = LoadTexture("../resources/bg.png");
     Texture2D far = LoadTexture("../resources/far.png");
     Texture2D foreMountains = LoadTexture("../resources/mountains.png");
@@ -29,11 +31,13 @@ int main()
     // While windows is open
     while (!WindowShouldClose())
     {
+
+        //Update Scrolls
         scrollMountains -= 0.15f;
         scrollForeMountains -= 0.4f;
         scrollMountainsTree -= 0.7f;
         scrollTrees -= 1.1f;
-
+        //Check when the scroll ends
         if (scrollMountains <= -far.width * PARALLAX_SCALE)
             scrollMountains = 0;
         if (scrollForeMountains <= -foreMountains.width * PARALLAX_SCALE)
@@ -48,6 +52,7 @@ int main()
         ClearBackground(RAYWHITE);
         // Draw Background Layer
 
+        //Draw The Background (No Scroll)
         DrawTextureEx(bg, (Vector2){0, 0}, 0.0f, PARALLAX_SCALE, WHITE);
         // Draw Far Scroll
         DrawTextureEx(far, (Vector2){scrollMountains, 20}, 0.0f, PARALLAX_SCALE, WHITE);
@@ -65,6 +70,7 @@ int main()
         EndDrawing();
     }
 
+    //Unload All textures from VRAM
     UnloadTexture(bg);
     UnloadTexture(far);
     UnloadTexture(foreMountains);

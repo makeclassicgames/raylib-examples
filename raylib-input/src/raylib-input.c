@@ -25,6 +25,7 @@ int main(){
     //Set target FPS
     SetTargetFPS(60);
 
+    //Get current Gamepad Avilable
    for(int i=0;i<4;i++){
      if(IsGamepadAvailable(i)){
         gamepadN=i;
@@ -52,9 +53,10 @@ int main(){
     return 0;
 }
 
+//Check GamePadInput
 void checkGamepadInput(void){
     if(!IsGamepadAvailable(gamepadN)) return;
-
+    //Get current Axis movement
     int xAxisMovement = GetGamepadAxisMovement(gamepadN,0);
     int yAxisMovement = GetGamepadAxisMovement(gamepadN,1);
 
@@ -77,6 +79,7 @@ void checkGamepadInput(void){
 
 }
 
+//Check KeyBoard Input
 void checkKeyBoardInput(){
 
     if(IsKeyDown(KEY_DOWN)){

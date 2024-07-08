@@ -4,6 +4,7 @@
     #include <emscripten/emscripten.h>
 #endif
 
+//Update and Draw Frames
 void updateDrawFrame(void);
 
 //Main Function

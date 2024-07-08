@@ -19,7 +19,9 @@ int main(){
     //While windows is open
     while(!WindowShouldClose()){
 
+        //When CLick
         if(IsMouseButtonDown(MOUSE_BUTTON_LEFT)){
+            //Get the current Mouse Position
             mousePosition=GetMousePosition();
             clicked=true;
         }
@@ -32,6 +34,7 @@ int main(){
         DrawText("Click On Screen to draw and drag a Circle",120,40,20,BLACK);
         //When clicked draw a Circle
         if(clicked){
+            //Draw Circle on current Mouse Position
             DrawCircleV(mousePosition,40,MAROON);
             clicked=false;
         }

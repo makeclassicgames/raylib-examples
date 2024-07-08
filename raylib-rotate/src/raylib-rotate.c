@@ -8,9 +8,10 @@ int main(){
     //Window Dimensions
     const int screenWidth = 800;
     const int screenHeight = 450;
-
+    //Current position
     Rectangle rect = {screenWidth/2,screenHeight/2,140,140};
     Vector2 origin = {70,70};
+    //DEfault rotation
     float rotation=0.2f;
     
     //Init Window (width, Height, title)
